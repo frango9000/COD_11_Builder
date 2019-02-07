@@ -26,6 +26,9 @@ public class EmpleadoBuilder {
         this.apellido2 = apellido2;
         return this;
     }
+    public Empleado crearEmpleado(){
+        return new Empleado(nombre, apellido1, apellido2, dia, mes, anho, altura, pie, diametro, sueldo, dni, cargo, formacion);
+    }
     
 
 }

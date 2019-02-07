@@ -21,6 +21,22 @@ public class Empleado {
         this.dni = dni;
     }
 
+    public Empleado(String nombre, String apellido1, String apellido2, int dia, int mes, int anho, float altura, float pie, float diametro, float sueldo, String dni, String cargo, String formacion) {
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.dia = dia;
+        this.mes = mes;
+        this.anho = anho;
+        this.altura = altura;
+        this.pie = pie;
+        this.diametro = diametro;
+        this.sueldo = sueldo;
+        this.dni = dni;
+        this.cargo = cargo;
+        this.formacion = formacion;
+    }
+
     public String getNombre() {
         return nombre;
     }
